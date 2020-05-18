@@ -1,0 +1,123 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0px;
+}
+
+/* -- HEADER START -- */
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	margin: 40px 0 10px 0;
+	font-size: 35px;
+
+}
+
+
+/* -- HEADER END -- */
+
+
+/* -- NAVBAR START -- */
+
+
+
+/* -- NAVBAR END -- */
+
+/* -- CONTENT START -- */
+
+.item {
+	width: 20%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 5%;
+	box-shadow: 5px 5px 5px 5px grey;
+}
+
+.item img {
+	width: 15vw;
+}
+
+.item h3 {
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+.container {
+	margin: 0 20vw;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: flex-start;
+	align-items: stretch;
+	justify-content: space-between;
+}
+
+.t1:hover {
+	transform: scale(2);
+	background-color: white;
+}
+
+.t1 {
+	  transition: transform 2s;
+}
+
+.t2:hover {
+	transform: rotateZ(90deg);
+	background-color: white;
+}
+
+.t3:hover {
+	transform: rotateZ(180deg);
+	background-color: white;
+}
+.t3 {
+	  transition: transform 2s;
+}
+
+.t4:hover {
+	background-color: grey;
+	box-shadow: none;
+}
+
+.t5:hover {
+	transform: rotateZ(360deg);
+	background-color: white;
+}
+
+.t5 {
+	  transition: transform 2s;
+}
+
+.t6:hover {
+	transform: skew(-10deg);
+}
+
+/* -- CONTENT END -- */
+
+/* -- FOOTER START -- */
+footer {
+	background-color: grey;
+	text-align: center;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	padding: 20px 0;
+	margin-top: 200px;
+}
+
+footer img {
+	margin: 0;
+	width: 200px;
+	padding: 20px 0;
+}
+
+/* -- FOOTER END -- */
