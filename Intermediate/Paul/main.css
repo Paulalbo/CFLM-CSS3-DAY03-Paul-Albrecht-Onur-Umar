@@ -35,22 +35,31 @@ h2 {
 table {
 	border-top: solid black 5px;
 	margin: 0px;
+	border-collapse: collapse;
 }
 
-thead th {
+tbody th {
+	text-align: left;
+}
+
+td {
+	text-align: right;
+}
+thead {
 	border-bottom: 1px solid black;
 	font-size: 11px;
 	text-align: left;
 }
 
 
-tbody td {
+tbody td, th {
 	border-bottom: 1px solid grey;
 	font-size: 12px;
 }
 
 tfoot {
 	font-size: 10px;
+	text-align: left;
 }
 
 .container {
@@ -73,6 +82,11 @@ tfoot {
 
 .text-indent {
 	text-indent: 2em;
+}
+
+.bigborder {
+	border-bottom: solid black 5px;
+	border-spacing: 0;
 }
 
 /* -- CONTENT END -- */

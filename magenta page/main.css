@@ -1,0 +1,128 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0px;
+}
+
+/* -- HEADER START -- */
+
+
+
+
+/* -- HEADER END -- */
+
+
+/* -- NAVBAR START -- */
+
+
+
+/* -- NAVBAR END -- */
+
+/* -- CONTENT START -- */
+
+.container {
+	margin
+	height: 50vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: stretch;
+	align-items: stretch;
+	justify-content: flex-start;
+	margin: 0 5%;
+}
+
+.item {
+	width: 50vw;
+	display: flex;
+	flex-flow: column;
+	align-self: stretch;
+	text-align: left;
+}
+
+.item img {
+	height: 40vh;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+h3 {
+	margin-top: 30%;
+	text-align: left;
+	font-size: 20px;
+
+}
+
+h2 {
+	text-align: left;
+	font-size: 50px;
+	margin: 0 0 10% 0;
+}
+
+button {
+	margin-left: 45%;
+	width: 150px;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(226,0,116);
+	border: none;
+	border-radius: 8px;
+}
+
+.product button {
+	margin-top: 5%;
+	margin-left: 5%;
+	width: 50%;
+	font-size: 0.5em;
+	padding: 0;
+}
+
+button a {
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+p {
+	text-align: center;
+	padding: 0 15%;
+	font-size: 20px;
+}
+
+.center-section {
+	margin: 15% 0;
+}
+
+.container-products {
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: flex-start;
+	align-items: stretch;
+	justify-content: space-around;
+}
+
+.product {
+	width: 20%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.product img {
+	max-height: 400px;
+	width: 70%;
+	padding: 0 1%;
+	object-fit: contain;
+}
+
+/* -- CONTENT END -- */
+
+/* -- FOOTER START -- */
+
+
+/* -- FOOTER END -- */
