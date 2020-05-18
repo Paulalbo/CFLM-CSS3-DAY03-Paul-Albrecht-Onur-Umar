@@ -1,0 +1,83 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0px;
+}
+
+/* -- HEADER START -- */
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+
+
+
+/* -- HEADER END -- */
+
+
+/* -- NAVBAR START -- */
+
+
+
+/* -- NAVBAR END -- */
+
+/* -- CONTENT START -- */
+h2 {
+	text-align: left;
+	margin: 40px 0 10px 0;
+	font-size: 35px;
+
+}
+
+table {
+	border-top: solid black 5px;
+	margin: 0px;
+}
+
+thead th {
+	border-bottom: 1px solid black;
+	font-size: 11px;
+	text-align: left;
+}
+
+
+tbody td {
+	border-bottom: 1px solid grey;
+	font-size: 12px;
+}
+
+tfoot {
+	font-size: 10px;
+}
+
+.container {
+	margin-left: 40%;
+	padding: 5px;
+	border: solid 1px black;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+#lastrow {
+	border: none;
+	text-align: center;
+}
+
+.noborder {
+	border: none;
+}
+
+.text-indent {
+	text-indent: 2em;
+}
+
+/* -- CONTENT END -- */
+
+/* -- FOOTER START -- */
+
+
+/* -- FOOTER END -- */
